@@ -1,0 +1,18 @@
+{
+  "name": "analisisociodemo",
+  "version": "1.0.0",
+  "description": "progetto per analisi di dati socio-demografici",
+  "main": "server.js",
+  "scripts": {
+    "test": "node -e \"console.log('Benvenuto nel progetto!\\nAssicurati di eseguire il progetto nella directory /analisiSocioDemo')\"",
+    "start": "cd server && node server.js",
+    "startClient": "cd client && node client.js" 
+  },
+  "author": "Stefano Caggegi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsdoc": "^4.0.5",
+    "readline-sync": "^1.4.10"
+  }
+}

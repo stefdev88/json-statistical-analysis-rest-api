@@ -1,0 +1,452 @@
+[
+  {
+    "uid": 1,
+    "anni": 24,
+    "categoria": "beta",
+    "valore": 4935,
+    "livello": "alto",
+    "ruolo": "analista",
+    "zona": "nord"
+  },
+  {
+    "uid": 2,
+    "anni": 50,
+    "categoria": "beta",
+    "valore": 4158,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "nord"
+  },
+  {
+    "uid": 3,
+    "anni": 59,
+    "categoria": "gamma",
+    "valore": 4830,
+    "livello": "alto",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 4,
+    "anni": 44,
+    "categoria": "beta",
+    "valore": 3794,
+    "livello": "alto",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 5,
+    "anni": 44,
+    "categoria": "gamma",
+    "valore": 2938,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 6,
+    "anni": 54,
+    "categoria": "beta",
+    "valore": 2881,
+    "livello": "medio",
+    "ruolo": "analista",
+    "zona": "centro"
+  },
+  {
+    "uid": 7,
+    "anni": 31,
+    "categoria": "alpha",
+    "valore": 1890,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 8,
+    "anni": 29,
+    "categoria": "alpha",
+    "valore": 1142,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 9,
+    "anni": 41,
+    "categoria": "beta",
+    "valore": 3759,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 10,
+    "anni": 21,
+    "categoria": "alpha",
+    "valore": 3830,
+    "livello": "medio",
+    "ruolo": "analista",
+    "zona": "centro"
+  },
+  {
+    "uid": 11,
+    "anni": 25,
+    "categoria": "gamma",
+    "valore": 1635,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "nord"
+  },
+  {
+    "uid": 12,
+    "anni": 23,
+    "categoria": "alpha",
+    "valore": 3215,
+    "livello": "medio",
+    "ruolo": "analista",
+    "zona": "sud"
+  },
+  {
+    "uid": 13,
+    "anni": 20,
+    "categoria": "alpha",
+    "valore": 4962,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "sud"
+  },
+  {
+    "uid": 14,
+    "anni": 48,
+    "categoria": "beta",
+    "valore": 1968,
+    "livello": "medio",
+    "ruolo": "assistente",
+    "zona": "sud"
+  },
+  {
+    "uid": 15,
+    "anni": 40,
+    "categoria": "alpha",
+    "valore": 4176,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 16,
+    "anni": 50,
+    "categoria": "gamma",
+    "valore": 1279,
+    "livello": "base",
+    "ruolo": "assistente",
+    "zona": "nord"
+  },
+  {
+    "uid": 17,
+    "anni": 35,
+    "categoria": "gamma",
+    "valore": 3639,
+    "livello": "base",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 18,
+    "anni": 28,
+    "categoria": "gamma",
+    "valore": 4866,
+    "livello": "medio",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 19,
+    "anni": 29,
+    "categoria": "gamma",
+    "valore": 2344,
+    "livello": "alto",
+    "ruolo": "assistente",
+    "zona": "nord"
+  },
+  {
+    "uid": 20,
+    "anni": 34,
+    "categoria": "alpha",
+    "valore": 4312,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "nord"
+  },
+  {
+    "uid": 21,
+    "anni": 24,
+    "categoria": "alpha",
+    "valore": 2430,
+    "livello": "alto",
+    "ruolo": "assistente",
+    "zona": "nord"
+  },
+  {
+    "uid": 22,
+    "anni": 44,
+    "categoria": "alpha",
+    "valore": 3527,
+    "livello": "base",
+    "ruolo": "analista",
+    "zona": "nord"
+  },
+  {
+    "uid": 23,
+    "anni": 45,
+    "categoria": "beta",
+    "valore": 2636,
+    "livello": "base",
+    "ruolo": "manager",
+    "zona": "sud"
+  },
+  {
+    "uid": 24,
+    "anni": 31,
+    "categoria": "alpha",
+    "valore": 4616,
+    "livello": "medio",
+    "ruolo": "analista",
+    "zona": "sud"
+  },
+  {
+    "uid": 25,
+    "anni": 38,
+    "categoria": "alpha",
+    "valore": 2019,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "sud"
+  },
+  {
+    "uid": 26,
+    "anni": 28,
+    "categoria": "alpha",
+    "valore": 4906,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 27,
+    "anni": 32,
+    "categoria": "gamma",
+    "valore": 1706,
+    "livello": "medio",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 28,
+    "anni": 35,
+    "categoria": "gamma",
+    "valore": 1609,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 29,
+    "anni": 54,
+    "categoria": "beta",
+    "valore": 3081,
+    "livello": "alto",
+    "ruolo": "assistente",
+    "zona": "sud"
+  },
+  {
+    "uid": 30,
+    "anni": 36,
+    "categoria": "alpha",
+    "valore": 4113,
+    "livello": "alto",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 31,
+    "anni": 22,
+    "categoria": "alpha",
+    "valore": 2691,
+    "livello": "medio",
+    "ruolo": "assistente",
+    "zona": "nord"
+  },
+  {
+    "uid": 32,
+    "anni": 42,
+    "categoria": "alpha",
+    "valore": 2811,
+    "livello": "base",
+    "ruolo": "analista",
+    "zona": "sud"
+  },
+  {
+    "uid": 33,
+    "anni": 44,
+    "categoria": "alpha",
+    "valore": 3635,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 34,
+    "anni": 50,
+    "categoria": "gamma",
+    "valore": 2913,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 35,
+    "anni": 25,
+    "categoria": "gamma",
+    "valore": 2043,
+    "livello": "alto",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 36,
+    "anni": 44,
+    "categoria": "gamma",
+    "valore": 4496,
+    "livello": "medio",
+    "ruolo": "analista",
+    "zona": "sud"
+  },
+  {
+    "uid": 37,
+    "anni": 27,
+    "categoria": "alpha",
+    "valore": 3628,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "nord"
+  },
+  {
+    "uid": 38,
+    "anni": 30,
+    "categoria": "beta",
+    "valore": 4181,
+    "livello": "alto",
+    "ruolo": "manager",
+    "zona": "sud"
+  },
+  {
+    "uid": 39,
+    "anni": 32,
+    "categoria": "beta",
+    "valore": 1710,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 40,
+    "anni": 49,
+    "categoria": "gamma",
+    "valore": 4741,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 41,
+    "anni": 34,
+    "categoria": "gamma",
+    "valore": 3724,
+    "livello": "medio",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 42,
+    "anni": 53,
+    "categoria": "alpha",
+    "valore": 3598,
+    "livello": "alto",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 43,
+    "anni": 58,
+    "categoria": "beta",
+    "valore": 4573,
+    "livello": "base",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 44,
+    "anni": 20,
+    "categoria": "alpha",
+    "valore": 1501,
+    "livello": "medio",
+    "ruolo": "manager",
+    "zona": "centro"
+  },
+  {
+    "uid": 45,
+    "anni": 44,
+    "categoria": "alpha",
+    "valore": 4767,
+    "livello": "alto",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 46,
+    "anni": 20,
+    "categoria": "beta",
+    "valore": 2857,
+    "livello": "base",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  },
+  {
+    "uid": 47,
+    "anni": 45,
+    "categoria": "gamma",
+    "valore": 2542,
+    "livello": "medio",
+    "ruolo": "assistente",
+    "zona": "centro"
+  },
+  {
+    "uid": 48,
+    "anni": 44,
+    "categoria": "beta",
+    "valore": 4873,
+    "livello": "base",
+    "ruolo": "analista",
+    "zona": "sud"
+  },
+  {
+    "uid": 49,
+    "anni": 25,
+    "categoria": "beta",
+    "valore": 3310,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "centro"
+  },
+  {
+    "uid": 50,
+    "anni": 33,
+    "categoria": "beta",
+    "valore": 3447,
+    "livello": "medio",
+    "ruolo": "tecnico",
+    "zona": "sud"
+  }
+]

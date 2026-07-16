@@ -1,0 +1,874 @@
+{
+  "info": {
+    "_postman_id": "48767a7d-13af-433f-8784-900cf3c7440d",
+    "name": "analisiSocioDemo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47273518",
+    "_collection_link": "https://go.postman.co/collection/47273518-48767a7d-13af-433f-8784-900cf3c7440d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "getAllDb",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/dataset",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "dataset"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getProprieta",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/properties",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "properties"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "BodyContentWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\" : \"istruzione\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/modality",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "modality"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Modalità",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\" : \"occupazione\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/modality",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "modality"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Modalità2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\" : \"istruzione\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/modality",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "modality"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ModalitaWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"hobby\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/modality",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "modality"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ModalitàBodyFieldWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"campo\": \"genere\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/modality",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "modality"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricMean",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"eta\",\r\n    \"metric\": \"mean\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricMode",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"occupazione\",\r\n    \"metric\": \"mode\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricMode2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"reddito\",\r\n    \"metric\": \"mode\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricRange",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"reddito\",\r\n    \"metric\": \"range\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricMax",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"eta\",\r\n    \"metric\": \"max\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricMedian",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"reddito\",\r\n    \"metric\": \"median\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricBodyFieldWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"reddito\"    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricAllvalue",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"istruzione\",\r\n    \"metric\": \"allvalue\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"area\",\r\n    \"metric\": \"minimo\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MetricWrong2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"occupazione\",\r\n    \"metric\": \"median\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "FreqPerc",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"occupazione\",\r\n    \"metric\": \"freqperc\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "FreqRel",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"area\",\r\n    \"metric\": \"freqrel\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "FreqAbs",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"field\": \"istruzione\",\r\n    \"metric\": \"freqabs\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/statistics/descriptive",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "statistics",
+            "descriptive"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupBy",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"occupazione\",\r\n    \"aggregatedField\": \"istruzione\",\r\n    \"metric\": \"freqabs\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupBy2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"istruzione\",\r\n    \"aggregatedField\": \"reddito\",\r\n    \"metric\": \"min\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupBy3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"eta\",\r\n    \"metric\": \"median\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupBy4",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"id\",\r\n    \"metric\": \"allvalue\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupByWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"occupazione\",\r\n    \"metric\": \"mean\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupByContentBodyWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"occupazione\",\r\n    \"metric\": \"mean\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupByBodyFieldWrong",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"occupazione\"\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupByWrong2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"genere\",\r\n    \"aggregatedField\": \"residenza\",\r\n    \"metric\": \"mean\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "groupByWrong3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"groupBy\": \"Cittadinanza\",\r\n    \"aggregatedField\": \"eta\",\r\n    \"metric\": \"mean\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/data/group",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "data",
+            "group"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
